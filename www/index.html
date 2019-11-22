@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="1.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <!--Drawer
+<div id="main-menu" data-role="panel" data-display="overlay" data-theme="b">
+    <ul data-role="listview">
+        <h2 style="text-align: center">MENU APP</h2>
+        <li><a href="#page-home" class="ui-nodisc-icon" data-transition="slideup">HOME</a></li>
+        <li><a href="#page-kantor" class="ui-nodisc-icon" data-transition="slideup">KANTOR KPU</a></li>
+        <li><a href="#page-pemilih" class="ui-nodisc-icon" data-transition="slideup">DAFTAR PEMILIH TETAP</a></li>
+        <li><a href="#page-calon" class="ui-nodisc-icon" data-transition="slideup">DAFTAR CALON TETAP</a></li>
+        <li><a href="#page-partai" class="ui-nodisc-icon" data-transition="slideup">DAFTAR PARTAI</a></li>
+    </ul>
+</div>-->
+
+    <!--Landing-->
+    <div data-role="page" id="page-landing" class="landing" onclick="window.location.href='login.html';"
+        style="cursor:pointer; width:100%; height:100%;">
+        <div class="quarter-circle-bottom-left">
+            <div class="text-landing">
+                <h1 style="color: #00ffff; font-size: 3.7em; margin-bottom: 0;">Child Life</h1>
+                <h2 style="color: #00ffff; margin-top: 0; letter-spacing: 3px;">"Ayo ketahui perkembangan anak"</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--Help-->
+    <div data-role="page" id="page-help">
+        <div class="topnav">
+            <div class="back">
+                <img class="gambar-back" src="images/icons-png/back-black.png" onclick="window.location.href='#page-home';">
+            </div>
+            <h1>ChildLife</h1>
+        </div>
+        <div class="content-help">
+            <p>Silahkan hubungi nomor di bawah ini:</p>
+            <p>(021) 14022</p>
+        </div>
+    </div>
+
+    <!--Calon-->
+    <div data-role="page" id="page-calon">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h1>DCT</h1>
+            <a role="button" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-left ui-nodisc-icon"
+                href="#main-menu">Menu</a>
+        </div>
+        <div role="main" class="ui-content">
+            <img src="images/res/dct.jpg" style="justify-content: center" width="330em" height="150em"></img>
+            <ul id="list-calon" data-role="listview" data-inset="true">
+            </ul>
+        </div>
+    </div>
+
+    <!--Data-Calon-->
+    <div data-role="page" id="page-datacalon">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h1>Detail Calon</h1>
+            <a role="button" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-left ui-nodisc-icon"
+                href="#main-menu">Menu</a>
+        </div>
+        <div role="main" class="ui-content">
+            <img src="images/res/dct.jpg" style="justify-content: center" width="330em" height="150em"></img>
+            <br>
+            <p id="p-idcalon"></p><br>
+            <p id="p-namacalon"></p><br>
+            <p id="p-visi"></p><br>
+            <p id="p-misi"></p><br>
+        </div>
+    </div>
+</body>
+
+<script src="js/app.js" type="text/javascript"></script>
+<script>Application.initApplication();</script>
+
+</html>

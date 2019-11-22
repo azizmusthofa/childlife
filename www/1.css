@@ -1,0 +1,119 @@
+.landing {
+  background-image: url("landing.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.quarter-circle-bottom-left {
+  width: 20em;
+  height: 20em;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0 20em 0 0;
+  -moz-border-radius: 0 20em 0 0;
+  -webkit-border-radius: 0 20em 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tombol-gambar img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  display: block;
+}
+
+.tombol-gambar p {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+
+.quarter-circle-top-right {
+  width: 20em;
+  height: 20em;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 0 20em;
+  -moz-border-radius: 0 0 0 20em;
+  -webkit-border-radius: 0 0 0 20em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-landing {
+  position: absolute;
+  top: 6em;
+  margin-left: 0.5em;
+}
+
+.text-login {
+  position: absolute;
+  top: 3em;
+  margin-left: 2.5em;
+}
+
+.form-login {
+  position: relative;
+  top: 18em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.form-daftar {
+  position: relative;
+  top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.topnav {
+  background-color: #00ffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.back {
+  float: left;
+  position: absolute;
+}
+
+.gambar-back {
+  width: 1.6em;
+  height: auto;
+  padding-top: 0.4em;
+  padding-left: 0.3em;
+}
+
+.help {
+  float: right;
+  position: absolute;
+  right: 0.2em;
+}
+
+.gambar-help {
+  width: 1.6em;
+  height: auto;
+  padding-top: 0.4em;
+  padding-left: 0.3em;
+}
+
+.topnav h1 {
+  display: inline-block;
+  color: #000;
+  margin: 0 0 0 0;
+  font-size: 2em;
+}
+
+.content-help {
+  position: relative;
+  top: 15em;
+}
+
+.content-help p {
+  text-align: center;
+}
